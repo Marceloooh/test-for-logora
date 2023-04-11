@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+ModeratedModel.create(content: "election is important in a democratic regim because people need to have a voice in politic", is_accepted: true)
+ModeratedModel.create(content: "Je suis pour le nucléaire car il permet de décarboner notre production énergetique tout en assurant une quantité suffisante d'énergie pour alimenter notre pays", is_accepted: true)
+ModeratedModel.create(content: "c dla merde ce truc de boloss", is_accepted: false)
